@@ -1,7 +1,4 @@
 '''
-
-
-https://stackabuse.com/reading-files-with-pytho
 The link to Fairy Tales
 https://www.cs.cmu.edu/~spok/grimmtmp/
 
