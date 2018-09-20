@@ -1,7 +1,5 @@
 '''
-Comment every line of the program bellow,
-and then, post your comments(program with comments)
-on the conversations board of Team Period 8
+
 
 https://stackabuse.com/reading-files-with-pytho
 The link to Fairy Tales
@@ -16,11 +14,6 @@ the last index of the texts  at https://www.cs.cmu.edu/~spok/grimmtmp/
 index = random.randint(1, 209)
 data = urllib.request.urlopen(("https://www.cs.cmu.edu/~spok/grimmtmp/{:003d}.txt").format(index)).read()
 
-        if len(sentences) > 0:
-            continue
-        else :
-            print("Do you want to read from another text? Press m, else press anything")
-            more = input()
 '''
 import random
 import urllib.request  # the library that handles the url
