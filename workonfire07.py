@@ -14,6 +14,9 @@ the last index of the texts  at https://www.cs.cmu.edu/~spok/grimmtmp/
 index = random.randint(1, 209)
 data = urllib.request.urlopen(("https://www.cs.cmu.edu/~spok/grimmtmp/{:003d}.txt").format(index)).read()
 
+Documentation urllib3
+https://media.readthedocs.org/pdf/urllib3/latest/urllib3.pdf
+
 '''
 import random
 import urllib.request  # the library that handles the url
