@@ -43,15 +43,14 @@ while more == "m":
         if len(sentences) <= 0:
             break
         else:
-            n = random.randint(0, len(sentences) - 1)  # Why should we subtract 1?
+            n = random.randint(0, len(sentences) - 1)  
             print(n)
             print("That's your answer!")
             print("\n" + sentences[n], end=".")
             print("\n, \n")
-            del sentences[n]  # It deletes the used sentence
+            del sentences[n]  
             print("The number of sentences left is :  " , end="")
-            print(len(sentences)) # It checks what is the number of sentences left
-                                  # was updated
+            print(len(sentences)) 
             print("If you want to continue , press y, else press n")
             cond = input("\n")
         print("It was a pleasure to have you play!")
