@@ -4,6 +4,8 @@ thinkCSpy 122
 In this  version Python3.6 and greater,
 pickling it is done with dual mode 'wb', and 'rb'
 string and binary
+https://docs.python.org/2/library/pickle.html
+
 '''
 import pickle
 f = open("test.pck", "wb")
